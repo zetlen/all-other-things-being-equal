@@ -1,5 +1,5 @@
 function allOtherThingsBeingEqual() {
-  return true;
+  return false;
 }
 
 allOtherThingsBeingEqual.networkIsReliable = function() {
