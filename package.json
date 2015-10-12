@@ -1,0 +1,27 @@
+{
+  "name": "all-other-things-being-equal",
+  "version": "1.0.0",
+  "description": "Indispensable helpers for common test cases when building web apps.",
+  "main": "assertions.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zetlen/all-other-things-being-equal.git"
+  },
+  "keywords": [
+    "test",
+    "networking"
+  ],
+  "author": "James Zetlen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zetlen/all-other-things-being-equal/issues"
+  },
+  "homepage": "https://github.com/zetlen/all-other-things-being-equal#readme",
+  "devDependencies": {
+    "tape": "^4.2.1",
+    "tape-catch": "^1.0.4"
+  }
+}
