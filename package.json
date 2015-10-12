@@ -1,6 +1,6 @@
 {
   "name": "all-other-things-being-equal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Indispensable helpers for common test cases when building web apps.",
   "main": "assertions.js",
   "scripts": {
