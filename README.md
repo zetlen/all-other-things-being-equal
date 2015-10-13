@@ -29,6 +29,8 @@ assert.ok(allOtherThingsBeingEqual.latencyIsZero());
 
 assert.ok(allOtherThingsBeingEqual.bandwidthIsInfinite());
 
+assert.ok(allOtherThingsBeingEqual.codeCoverageEqualsTestCaseCoverage());
+
 assert.ok(allOtherThingsBeingEqual());
 
 ```
