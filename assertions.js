@@ -11,23 +11,23 @@ function allOtherThingsBeingEqual() {
 }
 
 allOtherThingsBeingEqual.networkIsReliable = function() {
-    return false;
+    return networkIsReliable();
 }
 
 allOtherThingsBeingEqual.networkIsSecure = function() {
-    return false;
+    return networkIsSecure();
 }
 
 allOtherThingsBeingEqual.latencyIsZero = function() {
-    return false;
+    return latencyIsZero();
 }
 
 allOtherThingsBeingEqual.bandwidthIsInfinite = function() {
-    return false;
+    return bandwidthIsInfinite();
 }
 
 allOtherThingsBeingEqual.codeCoverageEqualsTestCaseCoverage = function () {
-    return false;
+    return codeCoverageEqualsTestCaseCoverage();
 }
 
 if (typeof module !== "undefined") {
