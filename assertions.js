@@ -1,34 +1,21 @@
-var bandwidthIsInfinit = require('./bandwidth-is-infinite');
-var networkIsReliable = require('./network-is-reliable');
-var networkIsSecure = require('./network-is-secure');
-var latencyIsZero = require('./latency-is-zero');
-var bandwidthIsInfinite = require('./bandwidth-is-infinite');
-var codeCoverageEqualsTestCaseCoverage = require('./code-coverage-equals-test-case-coverage');
-
-
 function allOtherThingsBeingEqual() {
     return false;
 }
 
-allOtherThingsBeingEqual.networkIsReliable = function() {
-    return networkIsReliable();
-}
+allOtherThingsBeingEqual.networkIsReliable =
+  require('./network-is-reliable');
 
-allOtherThingsBeingEqual.networkIsSecure = function() {
-    return networkIsSecure();
-}
+allOtherThingsBeingEqual.networkIsSecure =
+  require('./network-is-secure');
 
-allOtherThingsBeingEqual.latencyIsZero = function() {
-    return latencyIsZero();
-}
+allOtherThingsBeingEqual.latencyIsZero =
+  require('./latency-is-zero');
 
-allOtherThingsBeingEqual.bandwidthIsInfinite = function() {
-    return bandwidthIsInfinite();
-}
+allOtherThingsBeingEqual.bandwidthIsInfinite =
+  require('./bandwidth-is-infinite');
 
-allOtherThingsBeingEqual.codeCoverageEqualsTestCaseCoverage = function () {
-    return codeCoverageEqualsTestCaseCoverage();
-}
+allOtherThingsBeingEqual.codeCoverageEqualsTestCaseCoverage =
+  require('./code-coverage-equals-test-case-coverage');
 
 if (typeof module !== "undefined") {
     module.exports = allOtherThingsBeingEqual;
