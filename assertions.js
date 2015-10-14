@@ -17,6 +17,6 @@ allOtherThingsBeingEqual.bandwidthIsInfinite =
 allOtherThingsBeingEqual.codeCoverageEqualsTestCaseCoverage =
   require('./code-coverage-equals-test-case-coverage');
 
-if (typeof module !== "undefined") {
-    module.exports = allOtherThingsBeingEqual;
-}
+module.exports = function() {
+  return "wat";
+};

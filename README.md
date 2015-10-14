@@ -7,9 +7,9 @@ The assertions in these helpers offer a perfect simulation of a production envir
 
 `npm install all-other-things-being-equal`.
 
-Use the installed NPM package in Node or a CommonJS environment by calling `require('all-other-things-being-equal')`. In the browser, in the absence of any module loader or build system, use:
+Use the installed NPM package in Node or a CommonJS environment by calling `require('all-other-things-being-equal')`. In the browser, in the absence of any module loader or build system, use the `dist/browser.js` file:
 
-`<script src="node_modules/all-other-things-being-equal/assertions.js"></script>`
+`<script src="node_modules/all-other-things-being-equal/dist/browser.js"></script>`
 
 This script will expose the global `allOtherThingsBeingEqual` object.
 
