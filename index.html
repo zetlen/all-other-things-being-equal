@@ -39,9 +39,9 @@
 
 <p><code>npm install all-other-things-being-equal</code>.</p>
 
-<p>Use the installed NPM package in Node or a CommonJS environment by calling <code>require('all-other-things-being-equal')</code>. In the browser, in the absence of any module loader or build system, use:</p>
+<p>Use the installed NPM package in Node or a CommonJS environment by calling <code>require('all-other-things-being-equal')</code>. In the browser, in the absence of any module loader or build system, use the <code>dist/browser.js</code> file:</p>
 
-<p><code>&lt;script src="node_modules/all-other-things-being-equal/assertions.js"&gt;&lt;/script&gt;</code></p>
+<p><code>&lt;script src="node_modules/all-other-things-being-equal/dist/browser.js"&gt;&lt;/script&gt;</code></p>
 
 <p>This script will expose the global <code>allOtherThingsBeingEqual</code> object.</p>
 
@@ -60,6 +60,8 @@ assert.ok(allOtherThingsBeingEqual.networkIsSecure());
 assert.ok(allOtherThingsBeingEqual.latencyIsZero());
 
 assert.ok(allOtherThingsBeingEqual.bandwidthIsInfinite());
+
+assert.ok(allOtherThingsBeingEqual.codeCoverageEqualsTestCaseCoverage());
 
 assert.ok(allOtherThingsBeingEqual());
 </pre></div>
