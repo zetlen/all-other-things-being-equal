@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/james_zetlen/.nvm/versions/node/v4.1.1/bin/node',
+1 verbose cli   '/Users/james_zetlen/.nvm/versions/node/v4.1.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'prepublish' ]
+2 info using npm@3.3.5
+3 info using node@v4.1.1
+4 verbose run-script [ 'prepublish' ]
+5 info lifecycle all-other-things-being-equal@1.1.0~prepublish: all-other-things-being-equal@1.1.0
+6 verbose lifecycle all-other-things-being-equal@1.1.0~prepublish: unsafe-perm in lifecycle true
+7 verbose lifecycle all-other-things-being-equal@1.1.0~prepublish: PATH: /Users/james_zetlen/.nvm/versions/node/v4.1.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/james_zetlen/gits/all-other-things-being-equal/node_modules/.bin:/usr/local/heroku/bin:/Users/james_zetlen/.nvm/versions/node/v4.1.1/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin
+8 verbose lifecycle all-other-things-being-equal@1.1.0~prepublish: CWD: /Users/james_zetlen/gits/all-other-things-being-equal
+9 silly lifecycle all-other-things-being-equal@1.1.0~prepublish: Args: [ '-c', 'npm run browser && npm test' ]
+10 silly lifecycle all-other-things-being-equal@1.1.0~prepublish: Returned: code: 1  signal: null
+11 info lifecycle all-other-things-being-equal@1.1.0~prepublish: Failed to exec prepublish script
+12 verbose stack Error: all-other-things-being-equal@1.1.0 prepublish: `npm run browser && npm test`
+12 verbose stack Exit status 1
+12 verbose stack     at EventEmitter.<anonymous> (/Users/james_zetlen/.nvm/versions/node/v4.1.1/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+12 verbose stack     at emitTwo (events.js:87:13)
+12 verbose stack     at EventEmitter.emit (events.js:172:7)
+12 verbose stack     at ChildProcess.<anonymous> (/Users/james_zetlen/.nvm/versions/node/v4.1.1/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+12 verbose stack     at emitTwo (events.js:87:13)
+12 verbose stack     at ChildProcess.emit (events.js:172:7)
+12 verbose stack     at maybeClose (internal/child_process.js:817:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+13 verbose pkgid all-other-things-being-equal@1.1.0
+14 verbose cwd /Users/james_zetlen/gits/all-other-things-being-equal
+15 error Darwin 14.5.0
+16 error argv "/Users/james_zetlen/.nvm/versions/node/v4.1.1/bin/node" "/Users/james_zetlen/.nvm/versions/node/v4.1.1/bin/npm" "run" "prepublish"
+17 error node v4.1.1
+18 error npm  v3.3.5
+19 error code ELIFECYCLE
+20 error all-other-things-being-equal@1.1.0 prepublish: `npm run browser && npm test`
+20 error Exit status 1
+21 error Failed at the all-other-things-being-equal@1.1.0 prepublish script 'npm run browser && npm test'.
+21 error This is most likely a problem with the all-other-things-being-equal package,
+21 error not with npm itself.
+21 error Tell the author that this fails on your system:
+21 error     npm run browser && npm test
+21 error You can get their info via:
+21 error     npm owner ls all-other-things-being-equal
+21 error There is likely additional logging output above.
+22 verbose exit [ 1, true ]
